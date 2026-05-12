@@ -84,8 +84,6 @@ top_students = [s for s in students if s["grade"] >= 80]
 
 # 3. Izmantojam enumerate() un f-string rezultātu izvadei
 print("Studenti ar atzīmi 80 vai augstāk:")
-enum = enumerate(top_students, start=1)
-print("enum")
 
 for index, student in enumerate(top_students, start=1):
     print(f"{index}. {student['name']} - {student['grade']}")
