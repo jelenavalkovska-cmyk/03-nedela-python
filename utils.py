@@ -263,3 +263,4 @@ if __name__ == "__main__":
     print(average((1, 2, 5, "hello", 2)))
     print(average(("hello", "bye", "end")))
 
+
